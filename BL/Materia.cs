@@ -45,6 +45,7 @@ namespace BL
                     SqlDataAdapter da = new SqlDataAdapter(cmd); //Puente Base de datos y Programa ObtenerDatos
                     DataTable tablaMateria = new DataTable();
 
+
                     da.Fill(tablaMateria);
 
                     if(tablaMateria.Rows.Count > 0)
